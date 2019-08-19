@@ -1,6 +1,21 @@
 import styled from 'styled-components';
 import {MQ} from '../../../../config/style';
 
+
+export const HeaderContainer = styled.header`
+    position: relative;
+    height: 100vh;
+    border: 1px solid red;
+    overflow: hidden;
+`;
+export const Headerimg = styled.img`
+    position: absolute;
+    left: 0%;
+    bottom: -33%;
+    bottom: 0;
+    z-index: -10;
+`;
+
 // Title
 export const ContainerTitleHeader = styled.div`
     grid-area: 4/2/span 1/12;
@@ -37,3 +52,14 @@ export const ContainerTitleHeader = styled.div`
     }
 `;
 
+//*********************Nav  **********************/
+export const NavSC = styled.nav`
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 8.3vw;
+    & > img {
+        height: 25px;
+    }
+`;

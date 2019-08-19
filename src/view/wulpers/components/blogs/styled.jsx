@@ -35,7 +35,7 @@ export const Container1 = styled.div`
     flex-direction: column;
     justify-content: space-between;
     background: #635FFC;
-    height: 263px;
+    height: 283px;
     @media ${MQ.md} {
         height: auto;
         grid-column: 2/4;

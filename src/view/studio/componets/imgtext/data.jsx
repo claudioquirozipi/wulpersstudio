@@ -3,9 +3,9 @@ import m2 from '../../image/imgText/M2.png';
 import m3 from '../../image/imgText/M3.png';
 import m4 from '../../image/imgText/M4.png';
 import m5 from '../../image/imgText/M5.png';
-import d1 from '../../image/imgText/D1.png';
+import d1 from '../../image/imgText/D1.svg';
 import d2 from '../../image/imgText/D2.png';
-import d3 from '../../image/imgText/D3.png';
+import d3 from '../../image/imgText/D3.svg';
 import d4 from '../../image/imgText/D4.png';
 import d5 from '../../image/imgText/D5.png';
 

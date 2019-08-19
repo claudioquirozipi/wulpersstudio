@@ -7,7 +7,6 @@ import {
 
 function Card(pros) {
     const {imgM, title, text, bg} = pros
-    console.log("hola",pros, bg)
     return(
         <CardContainer bg={bg}>
             <CardSC>

@@ -15,9 +15,9 @@ import chevron from '../../image/header/chevron.svg';
 function Nav() {
     return(
         <ContainerNav>
-            <img src={logo} alt=""/>
+            <img src={logo} alt="Wulpers Studio"/>
             <ContainerButtons>
-                <a href="./"><Button text={"Let's talk"} /></a>
+                <Link to="/"><Button text={"Let's talk"} /></Link>
                 <NavSC>
                     <p>Nav</p>
                     <img src={chevron} alt=""/>

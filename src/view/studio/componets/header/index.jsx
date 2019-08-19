@@ -8,7 +8,7 @@ import {
     TextHeader
 } from './styled';
 //img
-import imgM1 from '../../image/header/imgM1.png';
+import imgM1 from '../../image/header/img1.svg';
 function Header() {
     return(
         <>

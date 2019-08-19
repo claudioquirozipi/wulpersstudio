@@ -3,21 +3,26 @@ import React from 'react';
 //Components
 import LeftRight from '../../../../components/leftRight';
 
+//Styled-Components
 import {
     ContainerText,
-    MicroSalChichaSC
+    MicroSalChichaSC,
 } from '../../../studio/componets/imgtext/style';
-
+import {
+    H1Title
+} from './styled';
 //Assets
 import img1 from './img/ilustracion01.svg';
 import img2 from './img/ilustracion02.svg';
 import img3 from './img/ilustracion03.svg';
 import img4 from './img/ilustracion04.svg';
 import img5 from './img/ilustracion05.jpg';
+import img6 from './img/ilustracion06.svg';
 
 function ImgText() {
     return(
         <main>
+            <H1Title>What we do</H1Title>
             <LeftRight src={img1}>
                 <ContainerText>
                     <h2>Team Leader</h2>
@@ -53,7 +58,7 @@ function ImgText() {
                     <MicroSalChichaSC />
                 </ContainerText>
             </LeftRight>
-            <LeftRight src={img5} reverse>
+            <LeftRight src={img6} reverse>
                 <ContainerText>
                     <h2>Linkedin CM</h2>
                     <p>It reaches each potential client into Linkedin and Sales Navigator. Using different tools and strategies to increase this network with well-segmented prospects.</p>

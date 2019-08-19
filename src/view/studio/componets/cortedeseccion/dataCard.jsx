@@ -1,7 +1,7 @@
-import CardM1 from '../../image/Card/CardM1.png';
-import CardM2 from '../../image/Card/CardM2.png';
-import CardM3 from '../../image/Card/CardM3.png';
-import CardM4 from '../../image/Card/CardM4.png';
+import CardM1 from '../../image/Card/Card1.svg';
+import CardM2 from '../../image/Card/Card2.svg';
+import CardM3 from '../../image/Card/Card3.svg';
+import CardM4 from '../../image/Card/Card4.svg';
 
 
 export const data =  [

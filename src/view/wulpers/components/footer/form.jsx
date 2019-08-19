@@ -1,6 +1,13 @@
 import React, {useState} from 'react';
 import firebase from 'firebase';
 
+//Styled-Components
+import {
+    FormSC
+} from './styled';
+
+
+
 // Your web app's Firebase configuration
 var firebaseConfig = {
     apiKey: "AIzaSyAEU04orjXfjSccBpakkfkfoA35KO7l6AE",
@@ -36,10 +43,10 @@ function Form() {
     function handleName(e) {setName(e.target.value);};
 
     return(
-        <form className="cqform" onSubmit={(e) => handleSubmit(e, name)}>
+        <FormSC onSubmit={(e) => handleSubmit(e, name)}>
             <input type="email" name="email" id="email" placeholder="e-mail" required onChange={handleName}/>
-            <input type="submit" name="submit" id="submit" value="" />
-        </form>
+            <input  type="submit" name="submit" id="submit" value="" />
+        </FormSC>
     )
 }
 

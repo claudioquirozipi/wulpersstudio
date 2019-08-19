@@ -3,7 +3,7 @@ import React from 'react';
 //Components
 import BlogsCQ from '../../components/blog/blogsCQ';
 import NavCQ from '../../components/nav';
-import img1 from './img/img1.jpg';
+
 
 //Data
 import {dataBlogs} from './tickets';

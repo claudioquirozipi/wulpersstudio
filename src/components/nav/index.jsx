@@ -13,9 +13,9 @@ function NavCQ(props) {
     const myImg = imgNav ? imgNav : imgHome; 
     return(
         <NavContainer bgNav={bgNav}>
-            <a href={imgUrl}>
+            <Link to={imgUrl}>
                 <img src={myImg} alt={imgAlt}/>
-            </a>
+            </Link>
             <ul>
                 {links.map((link, i) => {
                     return(

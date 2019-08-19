@@ -59,8 +59,8 @@ export const TextHeader = styled.header`
     }
     button {
         height: 50px;
-        width: 160px;
-        font-size: 20px;
+        width: 180px;
+        font-size: 17px;
         font-weight: 700;
         margin-top: 57px;
         margin-bottom: 170px;
@@ -85,14 +85,12 @@ export const ContainerNav = styled.div`
     width: calc(100vw - 54px);
     &>img {
         height: 41px;
-        opacity: 0;
         @media ${MQ.md} {
             height: 66px;
         }
     }
     @media ${MQ.md} {
         margin: 0px 8vw 50px;
-        border: 1px solid red;
         width: calc(100vw - 200px);
     }
 `;
