@@ -81,7 +81,7 @@ export const InputContainer = styled.div`
         border: none;
         outline: none;
         @media ${MQ.md} {
-            font-size: 24px;
+            font-size: 14px;
         }
     }
     img {

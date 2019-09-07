@@ -16,13 +16,13 @@ import img1 from './img/ilustracion01.svg';
 import img2 from './img/ilustracion02.svg';
 import img3 from './img/ilustracion03.svg';
 import img4 from './img/ilustracion04.svg';
-import img5 from './img/ilustracion05.jpg';
+import img5 from './img/ilustracion05.svg';
 import img6 from './img/ilustracion06.svg';
 
 function ImgText() {
     return(
         <main>
-            <H1Title>What we do</H1Title>
+            <H1Title>By giving them</H1Title>
             <LeftRight src={img1}>
                 <ContainerText>
                     <h2>Team Leader</h2>
@@ -31,7 +31,7 @@ function ImgText() {
                 </ContainerText>
             </LeftRight>
             <LeftRight src={img2} reverse>
-            <ContainerText>
+                <ContainerText>
                     <h2>Sales Agent </h2>
                     <p>It contacts each potential client that the prospecting team gives. Trying to interest each of them to proceed with a meeting and finally an invoice. </p>
                     <MicroSalChichaSC />

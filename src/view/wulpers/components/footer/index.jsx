@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom';
 //Components
 import Form from './form';
 import BgFooter from '../../../../components/footer/bgFooter';
@@ -29,10 +29,9 @@ function Footer() {
                 </ul>
                 <ul>
                     <li><h3>About us</h3></li>
-                    <li><p>Success Cases</p></li>
-                    <li><p>Press</p></li>
+                    <li><p><a href="#">Wulpers Co.</a></p></li>
+                    <li><p><Link to="/studio">Wulpers Studio</Link></p></li>
                     <li><p>Partners</p></li>
-                    <li><p>Investors</p></li>
                 </ul>
                 <ul>
                     <li><h3>Contact</h3></li>
@@ -43,8 +42,8 @@ function Footer() {
             </TripleList>
             <SocialMedia 
                 data={[
-                    {link:"https://www.youtube.com/", img: googleimg, alt:"google +"},
-                    {link:"https://www.youtube.com/", img: lindeninimg, alt:"linkedin"}
+                    {link:"https://www.youtube.com/channel/UCcKEtWR6WOl38hxlsRhUreA", img: googleimg, alt:"google +"},
+                    {link:"https://www.linkedin.com/company/wulpers/", img: lindeninimg, alt:"linkedin"}
                 ]}
             />
         </BgFooter>

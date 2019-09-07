@@ -36,7 +36,7 @@ export const HeaderContentSC = styled.div`
         }
     }
     h2 {
-        margin: 10px 0 100px;
+        margin: 10px 0 75px;
         font-size: 30px;
         font-weight: 700;
         @media ${MQ.sm} {

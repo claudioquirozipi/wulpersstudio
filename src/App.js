@@ -24,10 +24,10 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/cases" component={Cases} /> 
-          <Route exact path="/blog" component={Blog} />
+          {/* <Route exact path="/blog" component={Blog} />
           <Route exact path="/blog/1" component={Blog1} />
           <Route exact path="/blog/2" component={Blog2} />
-          <Route exact path="/blog/3" component={Blog3} />
+          <Route exact path="/blog/3" component={Blog3} /> */}
           <Route path="/blog/:id" component={Blog} />
           <Route exact path="/studio" component={Studio} /> 
           <Route exact path="/studio/blog/1" component={StudioBlog1} />

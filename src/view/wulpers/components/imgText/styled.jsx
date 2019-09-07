@@ -2,16 +2,18 @@ import styled, {css} from 'styled-components';
 import {MQ} from '../../../../config/style';
 
 export const H1Title = styled.h1`
-    color: #585858;
-    margin: 100px 0;
-    text-align: center;
-    width: 100%;
+    font-size: 30px;
     font-weight: 900;
-    font-size: 1.6em;
-    padding: 0 8.3vw;
-    box-sizing: border-box;
+    margin-top: 65px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 50px;
     @media ${MQ.md} {
-        font-size: 2em;
+        font-size: 60px;
+        margin-bottom: 150px;
+    }
+    @media ${MQ.lg} {
+        font-size: 80px;
     }
 `;
 
@@ -21,6 +23,7 @@ export const LeftRightSC = styled.div`
     justify-content: space-between;
     align-items: center;
     margin: 0 8.3% 50px;
+    
     @media ${MQ.md} {
         flex-direction: row;
         margin: 0 8.3% 150px;

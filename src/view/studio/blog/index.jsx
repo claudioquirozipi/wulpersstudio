@@ -11,8 +11,12 @@ import {dataBlogs} from './tickets';
 function StudioBlog() {
     return(
         <>
-            <NavCQ imgAlt="wulpers" imgUrl="/studio" links={[ ]}/>
-            <BlogsCQ blogs={dataBlogs}  title="Blog de Studio"/>
+            <NavCQ 
+                imgAlt="wulpers" 
+                imgUrl="/studio" links={[ ]}
+                bgNav="#635FFC"
+            />
+            <BlogsCQ blogs={dataBlogs} bgLink="#635FFC" title="Blog de Studio"/>
         </>
     )
 }

@@ -26,6 +26,10 @@ export const ContainerMobile = styled.div`
         text-align: center;
         font-size: 16px;
         color: #2C3E50;
+        margin-bottom: 67px;
+        span {
+            font-size: 37px;
+        }
     }
     p {
         padding: 0 110px;
@@ -35,8 +39,11 @@ export const ContainerMobile = styled.div`
         font-weight: 500;
         span {
             color: #2C3E50;
-            font-size: 16px;
-            font-weight: 500;
+            font-size: 34px;
+            font-weight: 700;
+        }
+        a {
+            color: #2C3E50;
         }
     }
     @media ${MQ.md} {
@@ -60,6 +67,12 @@ export const ContainerDesktop = styled.div`
         line-height: 50px;
         @media ${MQ.lg} {
             font-size: 20px;
+        }
+        a {
+            color: #2C3E50;
+            &:hover {
+                font-weight: 700;
+            }
         }
     }
     h2 {

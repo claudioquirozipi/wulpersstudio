@@ -52,15 +52,15 @@ function Form() {
                     <img src={imgform} alt="Form"/>
                     <InputContainer>
                         <img src={iconform1} alt=""/>
-                        <input type="number" placeholder="Phone" onChange={handlePhone}/>
+                        <input type="number" placeholder="Phone" onChange={handlePhone} required/>
                     </InputContainer>
                     <InputContainer>
                         <img src={iconform2} alt=""/>
-                        <input type="text" placeholder="Email" onChange={handleEmail}/>
+                        <input type="text" placeholder="Email" onChange={handleEmail} required/>
                     </InputContainer>
                     <InputContainer>
                         <img src={iconform3} alt="" />
-                        <input type="text" placeholder="Company web page" onChange={handleWeb}/>
+                        <input type="text" placeholder="Web company" onChange={handleWeb} required/>
                     </InputContainer>
                     <ButtonContainer>
                         <button>Send</button>

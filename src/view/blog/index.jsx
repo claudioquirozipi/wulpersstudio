@@ -14,6 +14,7 @@ function Blog() {
     return(
         <>
             <NavCQ  imgAlt="wulpers" imgUrl="/" 
+                bgNav="#75BAF3"
                 links={[
                     // {text: "Blog1", url:"/blog/1"},
                     // {text: "Blog2", url:"/blog/2"},
@@ -21,7 +22,7 @@ function Blog() {
                 ]}
                 
             />
-            <BlogsCQ blogs={dataBlogs}  title="Blog"/>
+            <BlogsCQ blogs={dataBlogs}  title="Blog" bgLink="#75BAF3"/>
             
         </>
     )

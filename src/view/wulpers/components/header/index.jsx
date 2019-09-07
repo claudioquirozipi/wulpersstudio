@@ -16,9 +16,9 @@ function Header() {
     return(
         <>
         <HeaderBg bgimgM={bgHeaderImgM} bgimgD={bgHeaderImgD}>
-            <Nav2CQ imgUrl="/" bgNav="transparent" imgNav={logo}
+            {/* <Nav2CQ imgUrl="/" bgNav="transparent" imgNav={logo}
                 links={[{text:"Wulpers Studio", url:"/studio"}]}
-            />
+            /> */}
             <HeaderContent>
                 <h3>We help companies to</h3>
                 <h2>Give the Jump</h2>

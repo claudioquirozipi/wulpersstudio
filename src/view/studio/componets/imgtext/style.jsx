@@ -5,9 +5,14 @@ import {MQ} from '../../../../config/style';
 export const ContainerTitle = styled.div`
     text-align: center;
     width: 100%;
+    margin-bottom: 50px;
+    @media ${MQ.md} {
+        margin-bottom: 100px;
+    }
     h2 {
         font-size: 30px;
         font-weight: 900;
+        margin-top: 65px;
         margin-bottom: 50px;
         @media ${MQ.md} {
             font-size: 60px;
@@ -27,7 +32,12 @@ export const ContainerTitle = styled.div`
     }
 `;
 
-export const ContainerImgText = styled.div``;
+export const ContainerImgText = styled.div`
+    margin-bottom: 50px;
+    @media ${MQ.md} {
+        margin-bottom: 150px;
+    }
+`;
 export const Container = styled.div`
     margin: 50px 0 0;
     & >:nth-child(1n) {

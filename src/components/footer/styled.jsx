@@ -59,6 +59,9 @@ export const TripleListSC = styled.div`
                 @media ${MQ.md} {
                     font-size: 23px;
                 }
+                a {
+                    color: white;
+                }
             }
         }
     }

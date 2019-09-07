@@ -10,6 +10,7 @@ function Blog2() {
     return(
         <>
         <NavCQ imgAlt="wulpers" imgUrl="/" 
+        bgNav="#75BAF3"
                 links={[
                     {text: "Blog", url:"/blog"}
                 ]}

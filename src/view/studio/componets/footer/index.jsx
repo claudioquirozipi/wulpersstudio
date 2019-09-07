@@ -1,4 +1,6 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+
 //Styled Components
 import {
     ContainerFooter,
@@ -11,29 +13,50 @@ import {
 } from './styled';
 //img
 import iconWeb from '../../image/footer/web.svg';
+import iconWeb2 from '../../image/footer/web2.svg';
+
 function Footer() {
     return(
         <ContainerFooter>
             <h3>Contact Us</h3>
             <ContainerMobile>
                 <h2><span>Wulpers Studio</span> <br/>All Right Reserved</h2>
-                <p><span>Contact</span> studio@wulpers.com 4703 Westslope Cir, Austin, TX 78731.</p>
+                <p>
+                    <span>About us</span> 
+                    <br/>Studio@wulpers.com
+                    <br/> <Link to="/"> Wulpers Co.</Link>
+                    <br/> <Link to="/studio/blog"> Wulpers news</Link>
+                </p>
                 <ContainerRedes>
-                    <img src={iconWeb} alt=""/>
-                    <img src={iconWeb} alt=""/>
+                    <a href="https://dribbble.com/wulpers">
+                        <img src={iconWeb} alt=""/>
+                    </a> 
+                    <a href="https://www.linkedin.com/company/wulpers/">
+                        <img src={iconWeb2} alt=""/>
+                    </a> 
                 </ContainerRedes>
             </ContainerMobile>
             <ContainerDesktop>
                 <h2><span>Wulpers Studio</span> <br/>All Right Reserved</h2>
                 <p>
-                    <span>Contact</span> 
-                    <br/>studio@wulpers.com
-                    <br/>Cordoba 2470
-                    <br/>Rosario, Argentina
+                    <span>About us</span> 
+                    <br/>Studio@wulpers.com
+                    <br/> <Link to="/"> Wulpers Co.</Link>
+                    <br/> <Link to="/studio/blog"> Wulpers news</Link>
                 </p>
                 <div>
-                    <ContainerRedes><img src={iconWeb} alt=""/> <p>Wulpers</p></ContainerRedes>
-                    <ContainerRedes><img src={iconWeb} alt=""/> <p>Wulpers</p></ContainerRedes>
+                    <ContainerRedes>
+                        <a href="https://dribbble.com/wulpers">
+                            <img src={iconWeb} alt=""/>
+                        </a> 
+                        <p>Dribbble</p>
+                    </ContainerRedes>
+                    <ContainerRedes>
+                        <a href="https://www.linkedin.com/company/wulpers/">
+                            <img src={iconWeb2} alt=""/>
+                        </a> 
+                        <p>Linkedin</p>
+                    </ContainerRedes>
                 </div>
             </ContainerDesktop>
             <Circle1 />

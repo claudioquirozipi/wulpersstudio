@@ -25,17 +25,18 @@ export const TextHeader = styled.header`
 
     @media ${MQ.md} {
         width: 40vw;
+        margin-top: 50px;
         margin-left: 8vw;
         margin-right: 2vw;
         align-items: flex-start;
     }
     h1 {
         color: #2C3E50;
-        font-size: 20px;
+        font-size: 30px;
         font-weight: 600;
         text-align: center;
         font-weight: 700;
-        margin-top: 35px;
+        margin-top: 0px;
         margin-bottom: 0;
         @media ${MQ.md} {
             font-size: 45px;
@@ -78,6 +79,7 @@ export const TextHeader = styled.header`
 `;
 
 export const ContainerNav = styled.div`
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,11 +88,11 @@ export const ContainerNav = styled.div`
     &>img {
         height: 41px;
         @media ${MQ.md} {
-            height: 66px;
+            height: 50px;
         }
     }
     @media ${MQ.md} {
-        margin: 0px 8vw 50px;
+        margin: 15px 8vw 0px;
         width: calc(100vw - 200px);
     }
 `;

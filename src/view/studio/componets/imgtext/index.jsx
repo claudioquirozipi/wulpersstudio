@@ -46,7 +46,7 @@ function ImgText() {
                 })}
             </Container>
             <ContainerButton>
-                <Button>View Projects</Button>
+                <a href="https://dribbble.com/wulpers"><Button>View Projects</Button></a>
             </ContainerButton>
         </>
     );

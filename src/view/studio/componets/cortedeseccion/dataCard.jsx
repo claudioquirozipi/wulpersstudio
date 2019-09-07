@@ -8,7 +8,7 @@ export const data =  [
     {
         imgM: CardM1,
         imgD: "",
-        title: "Analista UX",
+        title: "UX Analyst",
         text: "To define the usage diagrams of an app, define microflows, optimize interactions experience."
     },
     {

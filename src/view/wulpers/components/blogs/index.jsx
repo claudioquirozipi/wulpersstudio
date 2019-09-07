@@ -55,34 +55,34 @@ function Slyder() {
     function Button3() { cambiarValor(valorInicial[2]) }
     return(
         <>
-            <TitleSlyder>News</TitleSlyder>
+            <TitleSlyder>Updates</TitleSlyder>
             <ContainerSlyder>
                 <Container1>
                     <div>
                         <h2>{valor.titulo}</h2>
                         <p>{valor.parrafo}</p>
                     </div>
-                    <ContainerSlyderButton>
+                    {/* <ContainerSlyderButton>
                         <ButtonSC onClick={Button1} colorSC={valor.button1}/>
                         <ButtonSC onClick={Button2} colorSC={valor.button2}/>
                         <ButtonSC onClick={Button3} colorSC={valor.button3}/>
-                    </ContainerSlyderButton>
+                    </ContainerSlyderButton> */}
                 </Container1>
                 <Container2>
                     <SlyderSC left={valor.positionX}>
 
-                        <Link to={"/blog/1"}><img src={d4} alt=""/></Link>
+                        <Link to={""}><img src={d4} alt=""/></Link>
                         <Link to={"/blog/2"}><img src={d3} alt=""/></Link>
                         <Link to={"/blog/3"}><img src={d2} alt=""/></Link>
                     </SlyderSC>
                 </Container2>
                 <Container3>
                     <img src={d1} alt=""/>
-                    <SubTitle>Courses</SubTitle>
+                    <SubTitle>Benefits</SubTitle>
                 </Container3>
                 <Container4>
                     <img src={d5} alt=""/>
-                    <SubTitle>Awards</SubTitle>
+                    <SubTitle>Pipelines</SubTitle>
                 </Container4>
             </ContainerSlyder>
         </>

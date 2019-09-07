@@ -14,7 +14,7 @@ import {
 } from './styled';
 
 //Asest
-import d1 from '../../../blog/img/img1.jpg';
+import d1 from '../../../../static/img/studioBlog/blog1/img1.png';
 import d2 from '../../../blog/img/img2.jpg';
 import d3 from '../../../blog/img/img3.jpg';
 import d4 from '../../../blog/img/img4.jpg';
@@ -22,8 +22,8 @@ import d5 from '../../image/slyder/D5.png';
 
 const valorInicial = [
     {
-        titulo: "Analyze CX funnels",
-        parrafo: "Why is so necessary for this digital era has a partner for UI/UX to resolve all your digital projects.",
+        titulo: "Steps to create a digital project",
+        parrafo: "Our experts explain which are the right steps to create a successfuly software project.",
         positionX: "0%",
         button1: true,
         button2: false,
@@ -58,11 +58,11 @@ function Slyder() {
                     <h2>{valor.titulo}</h2>
                     <p>{valor.parrafo}</p>
                 </div>
-                <ContainerSlyderButton>
+                {/* <ContainerSlyderButton>
                     <ButtonSC onClick={Button1} colorSC={valor.button1}/>
                     <ButtonSC onClick={Button2} colorSC={valor.button2}/>
                     <ButtonSC onClick={Button3} colorSC={valor.button3}/>
-                </ContainerSlyderButton>
+                </ContainerSlyderButton> */}
             </Container1>
             <Container2>
                 <SlyderSC left={valor.positionX}>

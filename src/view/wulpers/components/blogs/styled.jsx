@@ -2,13 +2,18 @@ import styled from 'styled-components';
 import {MQ} from '../../../../config/style';
 
 export const TitleSlyder = styled.h2`
-    margin: 100px 0 0px;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 65px;
+    margin-bottom: 50px;
     text-align: center;
-    color: #2C3E50;
-    font-weight: 700;
-    font-size: 35px;
+    margin-bottom: 50px;
     @media ${MQ.md} {
-        font-size: 40px;
+        font-size: 60px;
+        margin-bottom: 150px;
+    }
+    @media ${MQ.lg} {
+        font-size: 80px;
     }
 `;
 
@@ -117,6 +122,7 @@ export const Container3 = styled.div`
     img {
         width: 100%;
         height: 100%;
+        object-fit: cover;
     }
     ::before {
         position: absolute;
@@ -137,6 +143,7 @@ export const Container4 = styled.div`
     img {
         width: 100%;
         height: 100%;
+        object-fit: cover;
     }
     ::before {
         position: absolute;
