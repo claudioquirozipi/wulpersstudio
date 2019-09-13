@@ -6,10 +6,12 @@ export const Header = styled.header`
     background-image: url(${props => props.bgimgM});
     background-position: center bottom;
     background-size: cover;
-    height: 100vh;
+    background-repeat: no-repeat;
+    height: auto;
     overflow: hidden;
     margin-bottom: 150px;
     @media ${MQ.md} {
+        height: 100vh;
         background-image: url(${props => props.bgimgD});
     }
 `;
@@ -48,7 +50,12 @@ export const HeaderContentSC = styled.div`
             font-size: 40px;
         }
     }
-    
+    h3 {
+        margin-top: 100px;
+        @media ${MQ.md} {
+            margin-top: 0;
+        }
+    }
     img {
        height: auto; 
        max-height: 70%;

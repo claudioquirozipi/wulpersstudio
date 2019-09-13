@@ -61,6 +61,11 @@ export const TripleListSC = styled.div`
                 }
                 a {
                     color: white;
+                    text-decoration: none;
+                    display: block;
+                    &:hover {
+                        transform: scale(1.05);
+                    }
                 }
             }
         }

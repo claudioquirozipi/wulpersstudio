@@ -26,8 +26,8 @@ function StudioBlog1() {
                 ]}
             />
         <BlogCQ>
+            <h1>Como llevar con éxito un proyecto de software?</h1>
             <img src={img1} alt=""/>
-            <h2>Como llevar con éxito un proyecto de software?</h2>
             <p>
                 Muchos emprendedores o empresas tienen una excelente idea y llega el 
                 momento de dar los siguientes pasos para transformarla en realidad. 
@@ -41,7 +41,7 @@ function StudioBlog1() {
                  anteriormente, y ademas manteniendo la gestión lo más ordenada posible para evitar 
                  dolores de cabeza.
             </p>
-            <h1>Los 8 pasos fundamentales para llevar adelante un proyecto de software exitosamente:</h1>
+            <h2>Los 8 pasos fundamentales para llevar adelante un proyecto de software exitosamente:</h2>
             <img src={img2} alt=""/>
             <p>
                 Tener una <strong>idea que permita resolver una necesidad latente</strong> (al menos al 

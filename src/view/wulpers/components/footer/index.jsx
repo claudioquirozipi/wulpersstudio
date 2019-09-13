@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 //Components
 import Form from './form';
 import BgFooter from '../../../../components/footer/bgFooter';
@@ -30,7 +29,7 @@ function Footer() {
                 <ul>
                     <li><h3>About us</h3></li>
                     <li><p><a href="#">Wulpers Co.</a></p></li>
-                    <li><p><Link to="/studio">Wulpers Studio</Link></p></li>
+                    <li><p><a href="https://wulpersstudio.firebaseapp.com/">Wulpers Studio</a></p></li>
                     <li><p>Partners</p></li>
                 </ul>
                 <ul>
